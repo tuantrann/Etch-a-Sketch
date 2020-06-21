@@ -1,0 +1,36 @@
+
+
+body{  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+header{
+    font-size: 5rem;
+}
+button{
+    width: 50%;
+    height:40px;
+    margin: auto;
+    background-color: purple;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    opacity: 80%;
+}
+button:hover{
+    background-color: violet;
+}
+#container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16, 30px);
+    border: solid gray 1px;
+    margin: auto;
+}
+.grid-item{
+    border: 1px solid #dfdfdf;
+}
